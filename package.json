@@ -1,0 +1,30 @@
+{
+  "name": "moi-cli",
+  "version": "0.0.1",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "maintainers": [
+    {
+      "name": "Paulo McNally",
+      "email": "paulomcnally@gmail.com"
+    }
+  ],
+  "directories": { "lib": "./lib/moi" },
+  "main": "./index.js",
+  "keywords": [
+    "moi",
+    "cli",
+    "wol",
+    "deploy"
+  ],
+  "bin": {
+    "moi": "./bin/moi"
+  },
+  "dependencies": {
+    "colors": "1.0.3",
+    "wake_on_lan": "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulomcnally/node-moi-cli.git"
+  }
+}

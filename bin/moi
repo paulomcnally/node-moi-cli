@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+var Moi = require('../lib/moi');
+var moi = new Moi();
+
+var commands = [
+  'wol'
+];
+
+var command = ( process.argv[2] ) ? process.argv[2] : null;
+
+/**
+ * Error
+ * Command is null
+ */
+if (!command) {
+  moi.error(0);
+  process.exit(0);
+}
+
+/**
+ * Error
+ * command don't exist in commands
+ */
+if ((commands.indexOf(command) != -1) === false) {
+  moi.error(1);
+  process.exit(1);
+}
+
+var argv = process.argv;
+argv.splice(0,3);
+
+moi[command](argv);
