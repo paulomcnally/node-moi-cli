@@ -1,8 +1,8 @@
 # moi-cli
 
-[![NPM](https://nodei.co/npm/moi-cli.png?downloads=true)](https://nodei.co/npm/moi-cli/)
-
 CLI MOi Solutions
+
+[![NPM](https://nodei.co/npm/moi-cli.png?downloads=true)](https://nodei.co/npm/moi-cli/)
 
 ## Installation
 
