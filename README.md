@@ -12,4 +12,4 @@ CLI MOi Solutions
 
     moi wol development
 
-To learn more about deploy with CLI in applications with NodeJS write me an email to paulomcnally@gmail.com
+To learn more about deploy with CLI in applications with NodeJS drop me an email to paulomcnally@gmail.com
